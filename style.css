@@ -42,4 +42,27 @@ footer{
      padding: 15px;
      background: #222;
      color: white;
+
 }
+
+section {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto;     
+  padding: 20px;      
+  box-sizing: border-box; 
+}
+
+
+
+@media (max-width: 768px) {
+
+  section {
+    padding: 10px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+}
+
